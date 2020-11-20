@@ -29,6 +29,14 @@ cd spring-boot-prometeus-grafana-example
 docker-compose up
 ```
 
+:warning: **Note:** Since we are using Docker to run Prometheus, it will be running in a Docker network that won't 
+understand localhost/120.0.01, as you might expect. Since our app is running on localhost, and for the Docker container, 
+localhost means its own network, we have to specify our system IP in place of it.
+
+**Change ip address in prometheus.yml**
+
+To check your system IP you can run ipconfig or ifconfig in your terminal, depending upon your OS.
+
 ## Sources
 
 * https://tanzu.vmware.com/developer/guides/spring/spring-prometheus/?utm_source=twitter&utm_medium=social
