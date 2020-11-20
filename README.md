@@ -1,6 +1,6 @@
 # Monitoring Spring Boot with Prometheus + Grafana (Preconfigured Dashboard)
 
-![Grafana Dashboard](https://github.com/BatuhanKucukali/spring-boot-prometeus-grafana-example/grafana-dashboard.png?raw=true "Grafana Dashboard")
+![Grafana Dashboard](https://github.com/BatuhanKucukali/spring-boot-prometeus-grafana-example/blob/master/grafana-dashboard.png?raw=true "Grafana Dashboard")
 
 ## Technologies
 * [Spring Boot](https://spring.io/)
