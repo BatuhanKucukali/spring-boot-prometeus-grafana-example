@@ -1,0 +1,20 @@
+# Spring
+spring:
+
+  # Application
+  application:
+    name: spring-prometheus-demo
+
+# Management
+management:
+
+  # Endppoints
+  endpoints:
+    web:
+      exposure:
+        include: health, metrics, prometheus
+
+  # Metric
+  metrics:
+    tags:
+      application: ${spring.application.name}
